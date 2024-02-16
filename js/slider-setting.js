@@ -23,7 +23,7 @@
 					mouseScrollReverse: "default",
 					onHoverStop: "on",
 					touch: {
-						touchenabled: "on",
+						touchenabled: "off",
 						swipe_threshold: 75,
 						swipe_min_touches: 1,
 						swipe_direction: "horizontal",
