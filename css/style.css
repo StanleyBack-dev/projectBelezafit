@@ -1069,4 +1069,60 @@ textarea#comment.update_mail::placeholder {
        display: none; /* Oculta o botão em dispositivos móveis */
     }
  }
+
+ /* Estilos para os botões Next e Prev do Slick Carousel */
+.slick-next,
+.slick-prev {
+  position: absolute;
+  top:  30%;
+  z-index:  1;
+  background: #000000; /* Cor de fundo do botão */
+  border: none; /* Remover borda */
+  font-size:  0; /* Remover texto padrão */
+  padding:  0; /* Remover padding padrão */
+  width:  30px; /* Largura do botão */
+  height:  30px; /* Altura do botão */
+  margin-top: -15px; /* Centralizar verticalmente */
+  cursor: pointer; /* Mudar cursor para ponteiro */
+  color: #ffffff; /* Cor do ícone */
+  text-align: center; /* Centralizar o texto */
+  line-height:  30px; /* Centralizar o texto verticalmente */
+}
+
+.slick-next:before,
+.slick-prev:before {
+  content: '';
+  position: absolute;
+  top:  50%;
+  left:  50%;
+  width:  20px;
+  height:  20px;
+  background-color: #000000; /* Cor do ícone */
+  transform: translate(-50%, -50%);
+}
+
+.slick-next:before {
+  border-right:  2px solid #000000; /* Ícone de seta para a direita */
+  border-top:  2px solid #000000;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.slick-prev:before {
+  border-left:  2px solid #000000; /* Ícone de seta para a esquerda */
+  border-bottom:  2px solid #000000;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Estilos para o botão Next */
+.slick-next {
+  right: -15px; /* Posicionar à direita */
+  content: '>';
+}
+
+/* Estilos para o botão Prev */
+.slick-prev {
+  left: -15px; /* Posicionar à esquerda */
+  content: '<';
+}
+ 
  

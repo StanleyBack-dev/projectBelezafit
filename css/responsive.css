@@ -306,7 +306,7 @@
     #banner_slider a.carousel-control-prev {
         left: 100px;
         top: 585px;
-        display: none;
+        /*display: none*/
     }
     .banner_section .row {
         display: flex;
@@ -335,7 +335,7 @@
     }
     #main_slider a.carousel-control-prev {
         left: 0;
-        display: none;
+        /*display: none*/
     }
     .about_taital_box {
         position: inherit;
@@ -437,7 +437,7 @@
     #banner_slider a.carousel-control-prev {
         left: 100px;
         top: 585px;
-        display: none;
+        /*display: none*/
     }
     .banner_section .row {
         display: flex;
@@ -469,7 +469,7 @@
     }
     #main_slider a.carousel-control-prev {
         left: 0;
-        display: none;
+        /*display: none*/
     }
     .about_taital_box {
         position: inherit;

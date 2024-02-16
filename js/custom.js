@@ -224,71 +224,78 @@ $(function () {
 	/* Deal Slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	
-	$('.deal-slider').slick({
-        dots: false,
-        infinite: false,
-		prevArrow: '.previous-deal',
-		nextArrow: '.next-deal',
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-		infinite: false,
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 2,
-                infinite: true,
-                dots: false
-            }
-        }, {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        }, {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
+	$(document).ready(function(){
+		$('#main_slider').slick({
+			slidesToShow:  4,
+			slidesToScroll:  4,
+			infinite: true,
+			dots: false,
+			arrows: true,
+			responsive: [
+				{
+					breakpoint:  1024,
+					settings: {
+						slidesToShow:  3,
+						slidesToScroll:  3,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint:  600,
+					settings: {
+						slidesToShow:  2,
+						slidesToScroll:  2
+					}
+				},
+				{
+					breakpoint:  480,
+					settings: {
+						slidesToShow:  1,
+						slidesToScroll:  1
+					}
+				}
+			]
+		});
+	});
 	
 	/* News Slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	
-	$('#news-slider').slick({
-        dots: false,
-        infinite: false,
-		prevArrow: '.previous',
-		nextArrow: '.next',
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false
-            }
-        }, {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }, {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
+	$(document).ready(function(){
+		$('#main_slider').slick({
+			slidesToShow:  4,
+			slidesToScroll:  4,
+			infinite: true,
+			dots: false,
+			arrows: true,
+			responsive: [
+				{
+					breakpoint:  1024,
+					settings: {
+						slidesToShow:  3,
+						slidesToScroll:  3,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint:  600,
+					settings: {
+						slidesToShow:  2,
+						slidesToScroll:  2
+					}
+				},
+				{
+					breakpoint:  480,
+					settings: {
+						slidesToShow:  1,
+						slidesToScroll:  1
+					}
+				}
+			]
+		});
+	});
 	
 	/* Fancybox
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
